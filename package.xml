@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>aisp_ros2_control_template</name>
+  <version>0.0.0</version>
+  <description>A ROS 2 control example for the AI Robot Science Platform using ament_python.</description>
+  <maintainer email="murilomarinho@ieee.org">Murilo M. Marinho</maintainer>
+  <license>LGPLv3</license>
+
+  <depend>sas_core</depend>
+  <depend>sas_common</depend>
+  <depend>sas_conversions</depend>
+  <depend>sas_robot_driver</depend>
+  <depend>sas_robot_kinematics</depend>
+  <depend>sas_robot_kinematics_constrained_multiarm</depend>
+
+  <test_depend>ament_copyright</test_depend>
+  <test_depend>ament_flake8</test_depend>
+  <test_depend>ament_pep257</test_depend>
+  <test_depend>python3-pytest</test_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>
