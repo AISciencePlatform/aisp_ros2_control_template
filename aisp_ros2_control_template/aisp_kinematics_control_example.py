@@ -8,7 +8,6 @@ from sas_common import rclcpp_init, rclcpp_Node, rclcpp_spin_some, rclcpp_shutdo
 
 
 def main(args=None):
-    a = DQ([1])
     """
     In this example, everything fits nicely into the main function. The four robot arms in AISP are controllable
     through their respective RobotKinematicsClient. After obtaining their initial task-space values, we command
